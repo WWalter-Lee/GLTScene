@@ -5,9 +5,19 @@ We present GLTScene, a novel data-driven method for high-quality furniture layou
 
 ![teaser](README.assets/teaser.png)
 
-# Installation & Dependencies & Dataset 
+# Installation & Dependencies
 
-Our code is developed based on the ATISS code framework, with the same Installation, Dependencies and Dataset as [ATISS](https://github.com/nv-tlabs/ATISS?tab=readme-ov-file).
+The dependencies of our code have been recorded in `environment. yaml`.
+
+You can create a conda environment called `GLTScene` using
+
+```
+conda env create -f environment.yaml
+```
+
+# Dataset 
+
+We used the [3D-FRONT](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset) and the [3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future) dataset to train our model. To download both datasets, please follow the guidelines outlined on the dataset's [webpage](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset).
 
 # Data Preprocessing
 
@@ -17,11 +27,7 @@ Coming soon.
 
 ## Training
 
-
-
 ## Inference
-
-
 
 # Citation
 
